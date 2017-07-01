@@ -1,0 +1,87 @@
+{
+  "name": "bodhi-dhcp_checksum",
+  "version": "0.1.0",
+  "author": "bodhi",
+  "summary": "Force checksuming of DHCP client packets.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/bodhidigital/puppet-dhcp_checksum",
+  "project_page": "https://github.com/bodhidigital/puppet-dhcp_checksum",
+  "issues_url": "https://github.com/bodhidigital/puppet-dhcp_checksum/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [
+        "11 SP1",
+        "12"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04",
+        "16.04"	
+      ]
+    },
+    {
+      "operatingsystem": "Gentoo",
+      "operatingsystemrelease": [
+        "1.0"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs-firewall",
+      "version_requirement": ">= 1.8.0 < 2.0.0"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.5.0 < 5.0.0"
+    }
+  ],
+  "data_provider": null
+}
+
